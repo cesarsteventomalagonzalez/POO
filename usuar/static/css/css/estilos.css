@@ -1,0 +1,96 @@
+body{
+    background-color: #FFC300 ;
+  }
+  
+  .imagen{
+    background: url(/./usuar/static/css/media/fond.jpeg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 10%;
+  }
+  .bg {
+      text-align: center;
+      padding: 10px;
+      height: 100vh;
+      background-size: cover;
+      box-sizing: border-box;
+      filter: blur(4px);
+  }
+  
+  .bg-text {
+      color: white;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+      font-family: "Rubik Mono One";
+  }
+  
+  .promocion1{
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+  }
+  
+  .promocion{
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+  
+  }
+  .img-fluid:hover{
+    filter: grayscale(80%);
+    cursor: pointer;
+  
+  }
+  
+  
+  .img-fluid{
+    text-align: center;
+    margin-top: 15%;
+    width: 325px;
+    margin-left: 3%;
+  
+  }
+  
+  
+  .card{
+    align-items: center;
+    text-align: justify;
+  }
+  
+  
+  .img-fluid:hover{
+    filter: grayscale(80%);
+    cursor: pointer;
+  
+  }
+  
+  .btn{
+    background-color: #85C1E9;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    font-size: 20px;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 5%;
+  
+  }
+  
+  
+  .imagen2{  
+    background: url(/img/Fondo.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  
+  }

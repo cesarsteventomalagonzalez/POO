@@ -1,0 +1,28 @@
+.lis {
+    list-style: none;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-family: 'Rubik Mono One';
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+  }
+  
+  .lis ::before {
+    content: "";
+    width: 0px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+  }
+  
+  .lis :hover::before {
+    width: 50%;
+    transform: translateX(100%);
+  }
+  
+  
